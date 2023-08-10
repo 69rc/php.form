@@ -1,0 +1,13 @@
+<?php
+$hostName ="localhost";
+$dbuser ="root";
+$dbpassword = "";
+$dbName = "login-register";
+$conn = mysqli_connect($hostName,$dbuser,$dbpassword,$dbName);
+if (!$conn) {
+    die("something went wrong");
+
+    
+}
+
+?>
